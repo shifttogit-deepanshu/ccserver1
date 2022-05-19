@@ -4,6 +4,9 @@ require('dotenv').config();
 const axios = require('axios');
 const bodyParser = require('body-parser');
 const pino = require('express-pino-logger')();
+var cors = require('cors')
+
+app.use(cors())
 
 const port = process.env.PORT || 3001
 
