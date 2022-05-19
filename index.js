@@ -1,7 +1,6 @@
 const express = require("express")
 const app = express()
 require('dotenv').config();
-const express = require('express');
 const axios = require('axios');
 const bodyParser = require('body-parser');
 const pino = require('express-pino-logger')();
